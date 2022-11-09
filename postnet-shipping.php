@@ -46,7 +46,6 @@ function postnet_activation()
     $args = array(
         'headers' => array(
             'Content-Type' => 'application/json',
-            'method'    => 'POST'
         ),
         'body'    => array(),
     );
